@@ -1,3 +1,4 @@
+
 (defun find-project-root ()
   (interactive)
   (if (ignore-errors (eproject-root))
@@ -37,6 +38,7 @@
      (define-key csharp-mode-map (kbd "SPC") 'csharp-should-method-space-replace)))
 
 (add-to-list 'exec-path "/usr/local/bin")
+
 ;Recursively add site-lisp to the load path
 ;Make sure custom stuff goes to the front of the list
 (let ((default-directory "~/src/elisp"))
@@ -453,4 +455,5 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
                       (cons `("Type" . ,mode) (omnisharp--get-common-params)))))))
     
     (compile (concat build-command " && " test-command))))
+
 

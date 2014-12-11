@@ -1,25 +1,25 @@
 
 ;; ----- smex-history -----
 (
+ kill-some-buffers
+ delete-directory
+ delete-file
+ package-install
+ spotify-next
  eval-buffer
  browse-url
- backward-word
- kill-this-buffer
- ido-kill-buffer
- evil-buffer
- company-mode
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 6)
+ (eval-buffer . 8)
  (evil-paste-after . 1)
  (evil-buffer . 2)
- (kill-some-buffers . 1)
+ (kill-some-buffers . 2)
  (load-theme . 1)
  (company-mode . 2)
  (evil-ace-jump-char-mode . 1)
- (package-install . 1)
+ (package-install . 3)
  (ido-kill-buffer . 1)
  (kill-this-buffer . 1)
  (backward-word . 1)
@@ -27,4 +27,7 @@
  (eww-mode . 2)
  (org-clock-in . 1)
  (org-clock-out . 1)
+ (spotify-next . 1)
+ (delete-file . 2)
+ (delete-directory . 1)
 )
