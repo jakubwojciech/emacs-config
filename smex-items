@@ -2,15 +2,29 @@
 ;; ----- smex-history -----
 (
  eval-buffer
- cd
- 5x5
- arp
- dbx
- dig
- erc
+ browse-url
+ backward-word
+ kill-this-buffer
+ ido-kill-buffer
+ evil-buffer
+ company-mode
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 1)
+ (eval-buffer . 6)
+ (evil-paste-after . 1)
+ (evil-buffer . 2)
+ (kill-some-buffers . 1)
+ (load-theme . 1)
+ (company-mode . 2)
+ (evil-ace-jump-char-mode . 1)
+ (package-install . 1)
+ (ido-kill-buffer . 1)
+ (kill-this-buffer . 1)
+ (backward-word . 1)
+ (browse-url . 2)
+ (eww-mode . 2)
+ (org-clock-in . 1)
+ (org-clock-out . 1)
 )

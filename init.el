@@ -169,9 +169,9 @@
  '(safe-local-variable-values
    (quote
     ((eval when
-           (fboundp
-            (quote rainbow-mode))
-           (rainbow-mode 1)))))
+	   (fboundp
+	    (quote rainbow-mode))
+	   (rainbow-mode 1)))))
  '(savehist-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -220,8 +220,19 @@
 (define-key evil-normal-state-map (kbd "<SPC> cp") 'previous-error)
 (define-key evil-insert-state-map (kbd "<RET>") 'newline-and-indent)
 
+(define-key evil-normal-state-map (kbd "<SPC> q") 'kill-this-buffer)
+(define-key evil-normal-state-map (kbd "<SPC> n") 'next-buffer)
+(define-key evil-normal-state-map (kbd "<SPC> p") 'previous-buffer)
+
+
 (define-key company-active-map (kbd "C-j") 'company-select-next-or-abort)
 (define-key company-active-map (kbd "C-k") 'company-select-previous-or-abort)
+
+(eval-after-load 'org
+  '(define-key evil-normal-state-map (kbd "<SPC> s") 'org-clock-in))
+
+(eval-after-load 'org
+  '(define-key evil-normal-state-map (kbd "<SPC> t") 'org-clock-out))
 
 (define-key evil-normal-state-map (kbd "<SPC> <SPC>") 'ace-jump-mode)
 (mapc (lambda (mode) (evil-set-initial-state mode 'emacs))
