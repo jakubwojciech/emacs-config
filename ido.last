@@ -11,27 +11,27 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "c:/Users/jakub.wojciechowski/AppData/Roaming/.emacs.d/config/"
  "c:/Users/jakub.wojciechowski/Documents/MyDocs/"
+ "c:/Users/jakub.wojciechowski/AppData/Roaming/.emacs.d/config/"
  "c:/Users/jakub.wojciechowski/AppData/Roaming/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "spotify.el"
  "notepad.org"
+ "spotify.el"
  "init.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("c:/Users/jakub.wojciechowski/" (21648 971 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "mercurial.ini" "mcafee dlp quarantined files/" "Local Settings/" "Links/" "Favorites/" "Emacs/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".gitconfig" ".bash_history" "../" "./")
+
+ ("c:/Users/jakub.wojciechowski/Documents/MyDocs/" (21641 54774 0 0) "_Misc/" "User.vsk" "SQL Scripts/" "Projects/" "Our department.txt" "notepad.org_archive" "notepad.org" "LINQPad Queries/" "Links.txt" "ITServiceDeskEmailTemplate.msg" "Issues/" "hasla.txt" "HandOverAndrewDunning.docx" "Current.vsk" "Copy of Country Master.xls" "Bats/" "AutoHotkey.ahk" "Apps/" ".gitignore" ".git/" "../" "./")
+
  ("c:/Users/jakub.wojciechowski/AppData/Roaming/.emacs.d/" (21641 45321 0 0) "smex-items" "recentf" "README.md" "init.el" "ido.last" "history" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".git/" "../" "./")
 
  ("c:/Users/jakub.wojciechowski/AppData/Roaming/.emacs.d/config/" (21641 45193 0 0) "../" "./")
-
- ("c:/Users/jakub.wojciechowski/" (21641 43001 0 0) "Videos/" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "mercurial.ini" "mcafee dlp quarantined files/" "Local Settings/" "Links/" "Favorites/" "Emacs/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".gitconfig" ".bash_history" "../" "./")
-
- ("c:/Users/jakub.wojciechowski/Documents/MyDocs/" (21641 44118 0 0) "_Misc/" "User.vsk" "SQL Scripts/" "Projects/" "Our department.txt" "notepad.org_archive" "notepad.org" "LINQPad Queries/" "Links.txt" "Issues/" "hasla.txt" "HandOverAndrewDunning.docx" "Current.vsk" "Copy of Country Master.xls" "Bats/" "AutoHotkey.ahk" "Apps/" ".gitignore" ".git/" ".#notepad.org" "../" "./")
 
  ("c:/Users/jakub.wojciechowski/Documents/MyDocs/_Misc/" (21641 32888 0 0) "Sync Data - Win7 - E Drive.bat" "StyleCop/" "Smss DEV.lnk" "Savvis.rdg" "Old QSS Import docs/" "notatki" "NBO sites list-Checklist.xlsx" "Jira development/" "InformationFromKeeganAboutLoadBalancing" "HowToStartWithJiraDevelopment.org" "hosts" "FPteams.png" "desklayout.png" "Configuration.txt" "Checkout documentation/" "bulk upload import file/" "Autonomy Docs/" "../" "./")
 

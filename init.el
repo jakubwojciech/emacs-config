@@ -441,6 +441,10 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 
 
+(custom-set-variables
+ '(ispell-dictionary "british")
+ '(ispell-program-name "c:/Program Files (x86)/Aspell/bin/aspell.exe"))
+
 (defun omnisharp-unit-test (mode)
   "Run tests after building the solution. Mode should be one of 'single', 'fixture' or 'all'" 
   (interactive)

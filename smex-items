@@ -5,9 +5,9 @@
  delete-directory
  delete-file
  package-install
- spotify-next
  eval-buffer
  browse-url
+ evil-buffer
 )
 
 ;; ----- smex-data -----
