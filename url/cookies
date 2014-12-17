@@ -1,0 +1,29 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".www.wp.pl"
+  [url-cookie "reksticket" "1418741712" "18-Dec-2014 14:55:12.00 GMT" "/" ".www.wp.pl" nil])
+ ("aleseriale.pl"
+  [url-cookie "statid" "213.174.212.158.10568:1418741735:2376915076:v1" "15 Dec 17 14:55:35 [GMT]" "/" "aleseriale.pl" nil]
+  [url-cookie "reksticket" "1418741735" "17-Dec-2014 14:55:35.00 GMT" "/" "aleseriale.pl" nil])
+ ("sport.wp.pl"
+  [url-cookie "reksticket" "1418741728" "17-Dec-2014 14:55:28.00 GMT" "/" "sport.wp.pl" nil])
+ ("www.wp.pl"
+  [url-cookie "reksticket" "1418741735" "17-Dec-2014 14:55:35.00 GMT" "/" "www.wp.pl" nil]
+  [url-cookie "statid" "dbed27e9272ba741d0033de2f5f8c1d2:2fc570:1418741712:v3" "15 Dec 17 14:55:12 [GMT]" "/" "www.wp.pl" nil])
+ (".reddit.com"
+  [url-cookie "__cfduid" "d19c58f473fe40908a2c8bedc421d15141418822780" "17 Dec 15 13:26:20 [GMT]" "/" ".reddit.com" nil]
+  [url-cookie "HttpOnly" nil "17 Dec 15 13:26:20 [GMT]" "/" ".reddit.com" nil])
+ (".wp.pl"
+  [url-cookie "statid" "dbed27e9272ba741d0033de2f5f8c1d2:2fc570:1418741712:v3" "15 Dec 17 14:55:12 [GMT]" "/" ".wp.pl" nil]
+  [url-cookie "sgv" "1418741712" "15-Jan-2015 14:55:12.00 GMT" "/" ".wp.pl" nil]
+  [url-cookie "rekticket" "1418741735" "17-Dec-2014 14:55:35.00 GMT" "/" ".wp.pl" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
