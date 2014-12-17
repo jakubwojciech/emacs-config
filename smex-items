@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- org-agenda
- undo-tree-visualize
  load-theme
- kill-some-buffers
- undo-tree-mode
- package-list-packages
+ help
+ shell
+ magit-status
+ magit-push
  eval-buffer
+ package-install
 )
 
 ;; ----- smex-data -----
@@ -16,10 +16,10 @@
  (evil-paste-after . 1)
  (evil-buffer . 2)
  (kill-some-buffers . 3)
- (load-theme . 18)
+ (load-theme . 19)
  (company-mode . 2)
  (evil-ace-jump-char-mode . 1)
- (package-install . 4)
+ (package-install . 5)
  (ido-kill-buffer . 1)
  (kill-this-buffer . 1)
  (backward-word . 1)
@@ -36,4 +36,13 @@
  (undo-tree-visualize . 3)
  (org-clock-jump-to-current-clock . 1)
  (org-agenda . 1)
+ (eww . 4)
+ (help . 2)
+ (ediff . 1)
+ (magit-status . 4)
+ (magit-push . 1)
+ (shell . 2)
+ (myFunction . 12)
+ (insert-p-tag . 2)
+ (wrap-markup-region . 4)
 )
