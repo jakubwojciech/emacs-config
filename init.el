@@ -1,4 +1,3 @@
-
 (defun find-project-root ()
   (interactive)
   (if (ignore-errors (eproject-root))
@@ -402,7 +401,7 @@
 
 ;; esc quits
 (defun minibuffer-keyboard-quit ()
-  "Abort recursive edit.
+  "Abort recursive edit.  
 In Delete Selection mode, if the mark is active, just deactivate it;
 then it takes a second \\[keyboard-quit] to abort the minibuffer."
   (interactive)
@@ -439,6 +438,10 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (define-key evil-normal-state-map (kbd "<SPC> ra") (lambda() (interactive) (omnisharp-unit-test "all")))
 (define-key evil-normal-state-map (kbd "<SPC> rl") 'recompile)
 
+;; set up a browser for browse-url
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "chromium-browser")
+(setq browse-url-browser-function 'browse-url-default-windows-browser)
 
 
 (custom-set-variables

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- load-theme
- help
- shell
- magit-status
- magit-push
- eval-buffer
  package-install
+ kill-some-buffers
+ typing-of-emacs
+ typing-of-emacs-questions
+ emacs-uptime
+ ielm
+ load-theme
 )
 
 ;; ----- smex-data -----
@@ -15,11 +15,11 @@
  (eval-buffer . 9)
  (evil-paste-after . 1)
  (evil-buffer . 2)
- (kill-some-buffers . 3)
+ (kill-some-buffers . 4)
  (load-theme . 19)
  (company-mode . 2)
  (evil-ace-jump-char-mode . 1)
- (package-install . 5)
+ (package-install . 8)
  (ido-kill-buffer . 1)
  (kill-this-buffer . 1)
  (backward-word . 1)
@@ -45,4 +45,8 @@
  (myFunction . 12)
  (insert-p-tag . 2)
  (wrap-markup-region . 4)
+ (ielm . 1)
+ (emacs-uptime . 1)
+ (typing-of-emacs . 23)
+ (typing-of-emacs-questions . 2)
 )
