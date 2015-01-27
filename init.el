@@ -163,16 +163,21 @@
  '(company-minimum-prefix-length 1)
  '(company-show-numbers t)
  '(helm-ag-insert-at-point (quote word))
+ '(ispell-dictionary "british")
+ '(ispell-program-name "c:/Program Files (x86)/Aspell/bin/aspell.exe")
  '(omnisharp-auto-complete-want-documentation nil)
  '(omnisharp-company-sort-results t)
  '(omnisharp-server-executable-path
    (quote /Users/jason/\.vim/bundle/Omnisharp/server/OmniSharp/bin/Debug/OmniSharp\.exe))
+ '(org-agenda-files
+   (quote
+    ("c:/Users/jakub.wojciechowski/Documents/MyDocs/notepad.org")))
  '(safe-local-variable-values
    (quote
     ((eval when
-	   (fboundp
-	    (quote rainbow-mode))
-	   (rainbow-mode 1)))))
+           (fboundp
+            (quote rainbow-mode))
+           (rainbow-mode 1)))))
  '(savehist-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -444,9 +449,13 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 (setq browse-url-browser-function 'browse-url-default-windows-browser)
 
 
-(custom-set-variables
- '(ispell-dictionary "british")
- '(ispell-program-name "c:/Program Files (x86)/Aspell/bin/aspell.exe"))
+
+
+
+(global-set-key "\C-cl" 'org-store-link)
+     (global-set-key "\C-cc" 'org-capture)
+     (global-set-key "\C-ca" 'org-agenda)
+     (global-set-key "\C-cb" 'org-iswitchb)
 
 (defun omnisharp-unit-test (mode)
   "Run tests after building the solution. Mode should be one of 'single', 'fixture' or 'all'" 

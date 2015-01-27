@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- package-install
- kill-some-buffers
- typing-of-emacs
- typing-of-emacs-questions
- emacs-uptime
- ielm
- load-theme
+ occur
+ speedbar
+ imenu
+ browse-url
+ toggle-truncate-lines
+ toggle-word-wrap
+ flyspell-mode
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 9)
+ (eval-buffer . 11)
  (evil-paste-after . 1)
  (evil-buffer . 2)
  (kill-some-buffers . 4)
@@ -23,19 +23,19 @@
  (ido-kill-buffer . 1)
  (kill-this-buffer . 1)
  (backward-word . 1)
- (browse-url . 2)
+ (browse-url . 6)
  (eww-mode . 2)
  (org-clock-in . 1)
  (org-clock-out . 1)
  (spotify-next . 1)
  (delete-file . 2)
  (delete-directory . 1)
- (ispell . 1)
+ (ispell . 10)
  (package-list-packages . 1)
  (undo-tree-mode . 2)
- (undo-tree-visualize . 3)
- (org-clock-jump-to-current-clock . 1)
- (org-agenda . 1)
+ (undo-tree-visualize . 4)
+ (org-clock-jump-to-current-clock . 3)
+ (org-agenda . 9)
  (eww . 4)
  (help . 2)
  (ediff . 1)
@@ -49,4 +49,24 @@
  (emacs-uptime . 1)
  (typing-of-emacs . 23)
  (typing-of-emacs-questions . 2)
+ (browse-url-chromium . 1)
+ (ispell-minor-mode . 2)
+ (next-error . 1)
+ (flyspell-mode . 6)
+ (ispell-word . 1)
+ (diary . 1)
+ (diary-view-entries . 1)
+ (org-agenda-toggle-time-grid . 4)
+ (org-capture . 2)
+ (evil-mode . 2)
+ (dired . 4)
+ (list-directory . 1)
+ (kill-rectangle . 2)
+ (set-mark-command . 1)
+ (whitespace-mode . 6)
+ (toggle-word-wrap . 2)
+ (toggle-truncate-lines . 1)
+ (imenu . 2)
+ (speedbar . 4)
+ (occur . 2)
 )
