@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- occur
- speedbar
- imenu
- browse-url
+ sql-mode
  toggle-truncate-lines
- toggle-word-wrap
+ evil-mode
+ ace-jump-mode
+ dired
  flyspell-mode
+ occur
 )
 
 ;; ----- smex-data -----
@@ -52,21 +52,23 @@
  (browse-url-chromium . 1)
  (ispell-minor-mode . 2)
  (next-error . 1)
- (flyspell-mode . 6)
+ (flyspell-mode . 7)
  (ispell-word . 1)
  (diary . 1)
  (diary-view-entries . 1)
  (org-agenda-toggle-time-grid . 4)
  (org-capture . 2)
- (evil-mode . 2)
- (dired . 4)
+ (evil-mode . 4)
+ (dired . 5)
  (list-directory . 1)
  (kill-rectangle . 2)
  (set-mark-command . 1)
  (whitespace-mode . 6)
  (toggle-word-wrap . 2)
- (toggle-truncate-lines . 1)
+ (toggle-truncate-lines . 3)
  (imenu . 2)
  (speedbar . 4)
  (occur . 2)
+ (sql-mode . 12)
+ (ace-jump-mode . 3)
 )

@@ -17,6 +17,8 @@
 ;; ----- ido-work-directory-list -----
 (
  "c:/Users/jakub.wojciechowski/Documents/MyDocs/"
+ "c:/Users/jakub.wojciechowski/Documents/MyDocs/Projects/JiraReportTool/ImportDataToJiraSQLs/"
+ "c:/Users/jakub.wojciechowski/Documents/MyDocs/Projects/JiraReportTool/Recharge Report/"
  "c:/Users/jakub.wojciechowski/AppData/Roaming/.emacs.d/"
  "c:/Users/jakub.wojciechowski/Documents/MyDocs/Issues/97940/"
  "c:/Users/jakub.wojciechowski/Documents/MyDocs/Bats/"
@@ -28,17 +30,24 @@
 ;; ----- ido-work-file-list -----
 (
  "notepad.org"
+ "5_ImportTramMembersToJira.sql"
+ "Wrong5_ImportTeamMembersToJira.sql"
+ "AutoHotkey.ahk"
+ "Credits-HQD.sql"
+ "Credits-HDD.sql"
+ "ImportDivisionsToJira.sql"
  "init.el"
  "INSERT.sql"
  "SMSS2014Run.vbs"
- "hosts"
- "UpdatePubWizQueue.sql"
- "spotify.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/jakub.wojciechowski/Documents/MyDocs/" (21687 42657 0 0) "_Misc/" "User.vsk" "SQL Scripts/" "Projects/" "Our department.txt" "notepad.org_archive" "notepad.org" "LINQPad Queries/" "Links.txt" "ITServiceDeskEmailTemplate.msg" "Issues/" "hasla.txt" "HandOverAndrewDunning.docx" "Current.vsk" "Copy of Country Master.xls" "Bats/" "AutoHotkey.ahk" "Apps/" ".gitignore" ".git/" "../" "./")
+ ("c:/Users/jakub.wojciechowski/Documents/MyDocs/Projects/JiraReportTool/ImportDataToJiraSQLs/" (21749 51658 0 0) "~$UserMappingITToJira.xlsx" "Wrong6_ImportProductsToJira.sql" "Wrong5_ImportTeamMembersToJira.sql" "Wrong1_ImportCostCentersToJira.sql" "UserMappingITToJira.xlsx" "ImportDivisionsToJira.sql" "ImportBudgetLimitToJira.sql" "6_ImportProductsToJira.sql" "5_ImportTramMembersToJira.sql" "4_ImportTeamRatesToJira.sql" "3_ImportTeamsToJira.sql" "2_ImportDevelopmentTypesToJira.sql" "1_ImportCostCentersToJirav.sql" "0_CreateTempTableForUserMapping.sql" ".#Wrong6_ImportProductsToJira.sql" "../" "./")
+
+ ("c:/Users/jakub.wojciechowski/Documents/MyDocs/" (21741 55993 0 0) "_Misc/" "User.vsk" "SQL Scripts/" "Projects/" "Our department.txt" "notepad.org_archive" "notepad.org" "LINQPad Queries/" "Links.txt" "ITServiceDeskEmailTemplate.msg" "Issues/" "hasla.txt" "HandOverAndrewDunning.docx" "Current.vsk" "Copy of Country Master.xls" "Bats/" "AutoHotkey.ahk" "Apps/" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/jakub.wojciechowski/Documents/MyDocs/Projects/JiraReportTool/Recharge Report/" (21740 19228 0 0) "StaffHours.sql" "Recharges for Hub.sql" "Recharges for Hub v2.sql" "Debits- HQD.sql" "Debits- HOD.sql" "Debits- HDD.sql" "Credits-HQD.sql" "Credits-HOD.sql" "Credits-HDD.sql" "Business Summary.sql" "Business Summary v3.sql" "Business Summary v2.sql" "../" "./")
 
  ("c:/Users/jakub.wojciechowski/Documents/MyDocs/Issues/85196- Password reminder email/" (21640 18616 0 0) "ROLLBACKEmailSubjectUpdate.sql" "EmailSubjectUpdate.sql" "../" "./")
 
