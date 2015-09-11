@@ -29,6 +29,9 @@
      )
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '()
+
+   dotspacemacs-additional-packages '(
+                                      key-chord)
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
    ;; are declared in a layer which is not a member of
    ;; the list `dotspacemacs-configuration-layers'
@@ -132,7 +135,7 @@ before layers configuration."
    dotspacemacs-default-package-repository nil
 
    ;; escape on jk from insert mode
-   evil-escape-key-sequence (kbd "jk")
+   evil-escape-key-sequence (kbd "jj")
    )
   ;; User initialization goes here
 
@@ -140,8 +143,27 @@ before layers configuration."
   (set-frame-parameter (selected-frame) 'alpha '(95 95))
   (add-to-list 'default-frame-alist '(alpha 95 95))
 
+
   (setq-default omnisharp-server-executable-path "c:\omnisharp01\OmniSharpServer\OmniSharp\bin\Debug\OmniSharp.exe")
   )
+
+
+(defun escape-add-semicolon-newline ()
+  (interactive)
+  (evil-escape)
+  (evil-end-of-line)
+  (evil-append 1)
+  (insert ";")
+  (evil-open-below 1)
+  )
+
+(defun escape-newline ()
+  (interactive)
+  (evil-escape)
+  (evil-open-below 1)
+  )
+
+
 
 (defun dotspacemacs/config ()
   "Configuration function.
@@ -155,6 +177,11 @@ layers configuration."
   (setq jsx-indent-level 2)
   (setq js-indent-level 2)
   (setq css-indent-offset 2)
+
+  (key-chord-mode 1)
+  ;;(key-chord-define-global "jl" 'escape-add-semicolon-newline)
+  (key-chord-define evil-insert-state-map "jl" 'escape-add-semicolon-newline)
+  (key-chord-define evil-insert-state-map "jk" 'escape-newline)
 )
 
 ;;my docs for tern server
